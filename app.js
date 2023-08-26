@@ -16,7 +16,7 @@ app.use(express.static("public"));
 //const uri = 'mongodb://127.0.0.1:27017';
 const uri = 'mongodb+srv://admin-Dheerap:JEC2025@cluster0.0y6f2hz.mongodb.net';
 
-const databaseName = "todolistDB";
+const databaseName = "todolistDB";o
 
 async function connect() {
   try {
