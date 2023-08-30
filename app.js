@@ -76,6 +76,7 @@ async function connect() {
         const items = await Item.find().exec();
         res.render("list", { listTitle: "Today", newListItems: items });
       } catch (err) {
+        
         console.error('Error fetching items from the database:', err);
         res.render("list", { listTitle: "Today", newListItems: [] });
       }
